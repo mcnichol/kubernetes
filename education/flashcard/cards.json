@@ -1,0 +1,59 @@
+{
+  [
+    {
+      "question": "What type of Selectors are supported on ReplicationControllers?",
+      "validAnswer": ["equality-based selectors"],
+      "metadata": {
+        "source-url": "https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#replicaset"
+      }
+    },{
+      "question": "What type of Selectors are supported on ReplicaSets?",
+      "validAnswer": ["equality-based selectors and set-based selectors"],
+      "metadata": {
+        "source-url": "https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/#replicaset"
+      }
+    },{
+      "question": "In what field do we define the desired state while creating an object from the respective '.yaml' file?",
+      "validAnswer": ["The 'spec' field"],
+      "invalidAnswer": ["The 'status' field","The 'desired' field", "The 'config' field"]
+      "metadata": {
+        "source-url": ""
+      }
+    },{
+      "question": "What are Labels?",
+      "validAnswer": ["A key-value pair attached to an object"],
+      "invalidAnswer": ["The name given to an object", "The configuration given to an object",  "None of the above"]
+      "metadata": {
+        "source-url": ""
+      }
+    },{
+      "question": "What kind of Selectors we can use to select the objects with a given Label?",
+      "validAnswer": ["Equality-based", "Set-based"],
+      "invalidAnswer": ["Name-based", "Count-based"]
+      "metadata": {
+        "source-url": ""
+      }
+    },{
+      "question": "Name the different ServiceTypes within Kubernetes",
+      "validAnswer": ["NodePort", "ClusterIP", "LoadBalancer", "ExternalIP", "ExternalName"],
+      "invalidAnswer": ["DNSName", "PortCount", "All of the above", "None of the above"]
+      "metadata": {
+        "source-url": ""
+      }
+    },{
+      "question": "",
+      "validAnswer": ["ClusterIP"],
+      "invalidAnswer": ["NodePort", "LoadBalancer", "ExternalIP", "ExternalName", "None of the above"]
+      "metadata": {
+        "source-url": ""
+      }
+    },{
+      "question": "What does a service use to logically group a set of pods?",
+      "validAnswer": ["Labels and selectors"],
+      "invalidAnswer": ["Pod names", "IP address attached to pods", "Current state", "None of the above"]
+      "metadata": {
+        "source-url": ""
+      }
+    },
+  ]
+}
